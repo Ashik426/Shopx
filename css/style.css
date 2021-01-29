@@ -1,0 +1,72 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.search {
+    font-weight: 700;
+    margin-right: 50%;
+    color: #040405;
+    transition: 1s;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+.icon-panel {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 50%;
+
+
+}
+.icon-panel li {
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+}
+.icon-panel li a {
+    font-weight: 700;
+    margin-left: 50px;
+    color: #040405;
+    transition: 1s;
+    font-size: 18px;
+    
+
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    /* margin: auto; */
+    margin-left: 38%;
+}
+.slider-section {
+    height: 20vh;
+}
+
+
+
+
+
